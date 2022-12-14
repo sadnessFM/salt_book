@@ -1,0 +1,23 @@
+.card {
+    width: 150px;
+    height: 125px;
+
+    border-radius: 10px;
+    
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1)
+}
+
+.card > a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

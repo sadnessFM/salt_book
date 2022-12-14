@@ -1,0 +1,57 @@
+header {
+    height: 50px;
+    padding: 10px 30px;
+    background-color: rgba(225, 95, 234, 0.56);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a, .add {
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 15pt;
+    font-weight: 700;
+}
+
+.data_link {
+    width: 100px;
+}
+
+.profile {
+    display: flex;
+    gap: 30px;
+    background-color: #fff3;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.auth_login {
+    background-color: rgba(192, 243, 73, 0.467);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12pt;
+}
+
+.authorised_user {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.disabled{
+    pointer-events: none;
+    opacity: 0.6;
+}
