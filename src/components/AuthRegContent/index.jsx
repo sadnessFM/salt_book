@@ -17,7 +17,7 @@ export default ({displayHandler, setView, setCurUser}) => {
     }
 
     return <>
-        <h2>Зарегистрироваться</h2>
+        <h2>приходи</h2>
         <form onSubmit={register}>
             <input type="text" name="username" placeholder="Название"/>
             <button type="submit">очуханиться</button>

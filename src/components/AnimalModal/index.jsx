@@ -114,11 +114,9 @@ export default () => {
                     <input type="text" placeholder="там" name="habitat_lat" value={lat} onChange={e => setLat(e.target.value)}/>
                     <input type="text" placeholder="сям" name="habitat_long" value={long} onChange={e => setLong(e.target.value)}/>
                     
-                    {animModalState === "add" && <button type="submit">Добавить</button>}
-                    {animModalState === "update" && <button type="submit">Обновить</button>}
-                    
+                    {animModalState === "add" && <button type="submit">закинуть</button>}
+                    {animModalState === "update" && <button type="submit">убить внутривенно</button>}
                 </form>
-
             </div>
         </div>
     </div>

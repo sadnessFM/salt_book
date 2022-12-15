@@ -14,7 +14,7 @@ export default ({displayHandler, setView, setCurUser}) => {
     }
 
     return <>
-        <h2>Войти</h2>
+        <h2>иди ко мне</h2>
         <form onSubmit={signIn}>
             <input type="text" name="username" placeholder="Название"/>
             <button type="submit">ЗАЙТИ ВА НАЛ</button>
